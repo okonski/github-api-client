@@ -6,10 +6,12 @@ GitHub API Client that supports caching content client-side, allowing every late
 You have three ways of defining your user to have authenticated access to your API:
   
 1. Put a file in: ~/.github/secrets.yml or \Users\username\.github\secrets.yml
+
         # secrets.yml
         user:
           login: your_login
           token: your_token
+
 2. Put GITHUB_USER and GITHUB_TOKEN in your environment, so github-api-client can read it.
 3. Configure your global git profile as defined here http://help.github.com/git-email-settings
   
